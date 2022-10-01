@@ -4,4 +4,6 @@ def key(turn):
     return inputKey
   else:
     print('**Unrecognized character, please retry**')
-    key(turn)
+    inputKey = key(turn)
+    return inputKey
+
